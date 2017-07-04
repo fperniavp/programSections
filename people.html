@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/accelerators.css" rel="stylesheet">
+        <style>
+            img{
+                height: 110px;
+                width: 110px;
+            }
+            .well{
+                border-radius: 0;
+            }
+            .media:hover{
+                cursor: pointer;
+            }
+            h4, h5{
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well">
+                        <div class="media">
+                        <div class="checkbox pull-left">
+				    		<label>
+								<input type="checkbox" value="">				
+							</label>
+						</div>
+						<div class="pull-left">
+							<img class="img-circle" src="img/photo-boulineau.jpg" alt="Image">
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Ana Maria Braga</h4>
+							<h5>Página Ativa</h5>
+                            <p>
+                                In occaecat ullamco eiusmod magna ut. Commodo dolor ea laboris qui nisi exercitation ea veniam sint non. Dolore sint tempor velit nostrud ut et sunt reprehenderit aliqua sint irure elit cillum. Duis dolore anim qui pariatur et adipisicing minim nulla.
+                            </p>
+						</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="well">
+                        <div class="media">
+                        <div class="checkbox pull-left">
+				    		<label>
+								<input type="checkbox" value="">				
+							</label>
+						</div>
+						<div class="pull-left">
+							<img class="img-circle" src="img/photo-boulineau.jpg" alt="Image">
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Ana Maria Braga</h4>
+							<h5>Página Ativa</h5>
+                            <p>
+                                In occaecat ullamco eiusmod magna ut. Commodo dolor ea laboris qui nisi exercitation ea veniam sint non. Dolore sint tempor velit nostrud ut et sunt reprehenderit aliqua sint irure elit cillum. Duis dolore anim qui pariatur et adipisicing minim nulla.
+                            </p>
+						</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="well">
+                        <div class="media">
+                        <div class="checkbox pull-left">
+				    		<label>
+								<input type="checkbox" value="">				
+							</label>
+						</div>
+						<div class="pull-left">
+							<img class="img-circle" src="img/photo-boulineau.jpg" alt="Image">
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Ana Maria Braga</h4>
+							<h5>Página Ativa</h5>
+                            <p>
+                                In occaecat ullamco eiusmod magna ut. Commodo dolor ea laboris qui nisi exercitation ea veniam sint non. Dolore sint tempor velit nostrud ut et sunt reprehenderit aliqua sint irure elit cillum. Duis dolore anim qui pariatur et adipisicing minim nulla.
+                            </p>
+						</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="well">
+                        <div class="media">
+                        <div class="checkbox pull-left">
+				    		<label>
+								<input type="checkbox" value="">				
+							</label>
+						</div>
+						<div class="pull-left">
+							<img class="img-circle" src="img/photo-boulineau.jpg" alt="Image">
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">Ana Maria Braga</h4>
+							<h5>Página Ativa</h5>
+                            <p>
+                                In occaecat ullamco eiusmod magna ut. Commodo dolor ea laboris qui nisi exercitation ea veniam sint non. Dolore sint tempor velit nostrud ut et sunt reprehenderit aliqua sint irure elit cillum. Duis dolore anim qui pariatur et adipisicing minim nulla.
+                            </p>
+						</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="jquery.matchHeight.min.js"></script>
+        <script>
+            $(function() {
+                $('.well').matchHeight();
+                $(".media").on("click", function(){
+                    $(this).find("input").prop('checked', !$(this).find("input").prop('checked'));
+                });
+            });
+        </script>
+    </body>
+</html>
